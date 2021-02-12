@@ -1,0 +1,87 @@
+/* GENARAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #909090;
+}
+a {
+    text-decoration: none;
+    color: #909090;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #000;
+}
+/* UTILITIES */
+.wrap-container {
+    width:1170px;
+    max-width: 1170px;
+    margin: 10px auto;
+}
+
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+/* HEADER CONTENT  */
+
+header > .brand img {
+    width: 170px;
+}
+
+nav > ul {
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 12px;
+    list-style: none;
+    text-transform: uppercase;
+}
+nav li:last-child {
+    margin-right: 0;
+}
+/* MAIN CONTENT  */
+
+/* HERO SECTION*/
+.hero {
+    height: 500px;
+    margin: 30px 0;
+    /* overflow: hidden; */
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.leadership h2 {
+    font-size: 2rem;
+}
+
+.col {
+    float: left;
+    width: 20%;
+
+}
+/* .hero img {
+    width: 100%; "se avessi usato overflow"
+
+} */
+/* FOOTER  */
